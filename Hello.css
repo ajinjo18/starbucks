@@ -100,12 +100,15 @@ h1{
 }
 
 .img{
-    margin-top: -40px;
     border-radius: 100px;
-    padding: 50px 50px;
+    margin: 10px 20px 58px 90px;
 }
-.imgoption{
-    margin-left: 70px;
+.imgoption .img{
+    transition: 0.5s ease-out;
+}
+.imgoption :hover .img{
+    transform: scale(1.2, 1.2);
+    transition: 0.5s ease-out;
 }
 .name{
     display: flex;
@@ -114,22 +117,22 @@ h1{
     color: #000;
 }
 .name1{
-    margin: -50px 0px 0px 135px;
+    margin: -50px 0px 0px 109px;
 }
 .name2{
-    margin: -50px 0px 0px 145px;
+    margin: -50px 0px 0px 154px;
 }
 .name3{
-    margin: -50px 0px 0px 165px;
+    margin: -50px 0px 0px 174px;
 }
 .name4{
-    margin: -50px 0px 0px 140px;
+    margin: -50px 0px 0px 150px;
 }
 .name5{
-    margin: -50px 0px 0px 110px;
+    margin: -50px 0px 0px 117px;
 }
 .name6{
-    margin: -50px 0px 0px 105px;
+    margin: -50px 0px 0px 120px;
 }
 
 /* ----------Banner---------------- */
